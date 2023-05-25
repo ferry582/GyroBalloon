@@ -19,7 +19,7 @@ class GameScene : SKScene, SKPhysicsContactDelegate, ObservableObject {
     private let hapticFeedback = UIImpactFeedbackGenerator(style: .medium)
     private let hapticNotification = UINotificationFeedbackGenerator()
     var isBaloonBurst = false
-    var movingSpeed: CGFloat = 4
+    var movingSpeed: CGFloat = 3
     
     var score: Int = 0 {
         didSet {
@@ -170,7 +170,7 @@ class GameScene : SKScene, SKPhysicsContactDelegate, ObservableObject {
     func updateScore() {
         self.score += 1 // Update score everytime the obstacle has reached bottom
         if score % 5 == 0 {
-            movingSpeed -= 0.3
+            movingSpeed -= movingSpeed * 0.05 // Increase difficulty
         }
     }
     
