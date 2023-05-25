@@ -7,3 +7,6 @@ GyroBalloon is a simple game that utilizes the gyroscope sensor. The game play i
 * CoreMotion
 
 ## Game UI
+<img src="Images/gameover.PNG" width=180>
+<img src="Images/gameplay.PNG" width=180>
+<img src="Images/home.PNG" width=180>

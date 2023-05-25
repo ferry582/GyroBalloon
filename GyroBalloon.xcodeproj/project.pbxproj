@@ -14,9 +14,9 @@
 		E6920F182A1F758B00384BD2 /* HomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6920F172A1F758B00384BD2 /* HomeScene.swift */; };
 		E6920F1A2A1F759300384BD2 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6920F192A1F759300384BD2 /* PlaySound.swift */; };
 		E6920F342A1F773400384BD2 /* AthensClassic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6920F332A1F773400384BD2 /* AthensClassic.ttf */; };
-		E6920F392A1F98C400384BD2 /* GameOver.PNG in Resources */ = {isa = PBXBuildFile; fileRef = E6920F362A1F98C400384BD2 /* GameOver.PNG */; };
-		E6920F3A2A1F98C400384BD2 /* GamePlay.PNG in Resources */ = {isa = PBXBuildFile; fileRef = E6920F372A1F98C400384BD2 /* GamePlay.PNG */; };
-		E6920F3B2A1F98C400384BD2 /* Home.PNG in Resources */ = {isa = PBXBuildFile; fileRef = E6920F382A1F98C400384BD2 /* Home.PNG */; };
+		E6920F3F2A1F9A6D00384BD2 /* gameplay.PNG in Resources */ = {isa = PBXBuildFile; fileRef = E6920F3C2A1F9A6D00384BD2 /* gameplay.PNG */; };
+		E6920F402A1F9A6D00384BD2 /* home.PNG in Resources */ = {isa = PBXBuildFile; fileRef = E6920F3D2A1F9A6D00384BD2 /* home.PNG */; };
+		E6920F412A1F9A6D00384BD2 /* gameover.PNG in Resources */ = {isa = PBXBuildFile; fileRef = E6920F3E2A1F9A6D00384BD2 /* gameover.PNG */; };
 		E6D674102A1F6F7E00C82709 /* GyroBalloonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D6740F2A1F6F7E00C82709 /* GyroBalloonApp.swift */; };
 		E6D674122A1F6F7E00C82709 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D674112A1F6F7E00C82709 /* ContentView.swift */; };
 		E6D674142A1F6F7E00C82709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D674132A1F6F7E00C82709 /* Assets.xcassets */; };
@@ -32,9 +32,9 @@
 		E6920F172A1F758B00384BD2 /* HomeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScene.swift; sourceTree = "<group>"; };
 		E6920F192A1F759300384BD2 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		E6920F332A1F773400384BD2 /* AthensClassic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AthensClassic.ttf; sourceTree = "<group>"; };
-		E6920F362A1F98C400384BD2 /* GameOver.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameOver.PNG; sourceTree = "<group>"; };
-		E6920F372A1F98C400384BD2 /* GamePlay.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GamePlay.PNG; sourceTree = "<group>"; };
-		E6920F382A1F98C400384BD2 /* Home.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.PNG; sourceTree = "<group>"; };
+		E6920F3C2A1F9A6D00384BD2 /* gameplay.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameplay.PNG; sourceTree = "<group>"; };
+		E6920F3D2A1F9A6D00384BD2 /* home.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.PNG; sourceTree = "<group>"; };
+		E6920F3E2A1F9A6D00384BD2 /* gameover.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.PNG; sourceTree = "<group>"; };
 		E6D6740C2A1F6F7E00C82709 /* GyroBalloon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GyroBalloon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D6740F2A1F6F7E00C82709 /* GyroBalloonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroBalloonApp.swift; sourceTree = "<group>"; };
 		E6D674112A1F6F7E00C82709 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,9 +56,9 @@
 		E6920F352A1F98AA00384BD2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				E6920F362A1F98C400384BD2 /* GameOver.PNG */,
-				E6920F372A1F98C400384BD2 /* GamePlay.PNG */,
-				E6920F382A1F98C400384BD2 /* Home.PNG */,
+				E6920F3E2A1F9A6D00384BD2 /* gameover.PNG */,
+				E6920F3C2A1F9A6D00384BD2 /* gameplay.PNG */,
+				E6920F3D2A1F9A6D00384BD2 /* home.PNG */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -166,13 +166,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6920F142A1F751D00384BD2 /* bgMusic.m4a in Resources */,
-				E6920F392A1F98C400384BD2 /* GameOver.PNG in Resources */,
+				E6920F3F2A1F9A6D00384BD2 /* gameplay.PNG in Resources */,
 				E6D674172A1F6F7E00C82709 /* Preview Assets.xcassets in Resources */,
 				E6920F122A1F750000384BD2 /* BalloonBlowsUp.wav in Resources */,
-				E6920F3B2A1F98C400384BD2 /* Home.PNG in Resources */,
 				E6920F342A1F773400384BD2 /* AthensClassic.ttf in Resources */,
+				E6920F412A1F9A6D00384BD2 /* gameover.PNG in Resources */,
+				E6920F402A1F9A6D00384BD2 /* home.PNG in Resources */,
 				E6D674142A1F6F7E00C82709 /* Assets.xcassets in Resources */,
-				E6920F3A2A1F98C400384BD2 /* GamePlay.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
